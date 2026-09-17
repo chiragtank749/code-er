@@ -1,0 +1,16 @@
+# Trainer-only folder: never committed, never pushed
+trainer-kit/
+
+# Build output
+target/
+
+# IDE and OS files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+out/
+.DS_Store
+Thumbs.db
