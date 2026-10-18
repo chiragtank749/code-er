@@ -1,0 +1,316 @@
+OK: metadata.json, launchdeck.skills.json, skill-catalogue.json valid; source preflight passed (18 tracked files)
+TAP version 13
+# Subtest: real on-disk artifacts are valid
+ok 1 - real on-disk artifacts are valid
+  ---
+  duration_ms: 9.495347
+  type: 'test'
+  ...
+# Subtest: rejects: missing primary minimumObservations
+ok 2 - rejects: missing primary minimumObservations
+  ---
+  duration_ms: 4.377659
+  type: 'test'
+  ...
+# Subtest: rejects: missing secondary minimumObservations
+ok 3 - rejects: missing secondary minimumObservations
+  ---
+  duration_ms: 2.482587
+  type: 'test'
+  ...
+# Subtest: rejects: nested minimumObservations
+ok 4 - rejects: nested minimumObservations
+  ---
+  duration_ms: 1.471629
+  type: 'test'
+  ...
+# Subtest: rejects: string "3" minimumObservations
+ok 5 - rejects: string "3" minimumObservations
+  ---
+  duration_ms: 1.831405
+  type: 'test'
+  ...
+# Subtest: rejects: zero minimumObservations
+ok 6 - rejects: zero minimumObservations
+  ---
+  duration_ms: 2.85896
+  type: 'test'
+  ...
+# Subtest: rejects: measuredBy as object
+ok 7 - rejects: measuredBy as object
+  ---
+  duration_ms: 1.011433
+  type: 'test'
+  ...
+# Subtest: rejects: missing rubricReference
+ok 8 - rejects: missing rubricReference
+  ---
+  duration_ms: 0.87336
+  type: 'test'
+  ...
+# Subtest: rejects: missing limitations
+ok 9 - rejects: missing limitations
+  ---
+  duration_ms: 1.818018
+  type: 'test'
+  ...
+# Subtest: rejects: old modes key
+ok 10 - rejects: old modes key
+  ---
+  duration_ms: 2.906865
+  type: 'test'
+  ...
+# Subtest: rejects: old roles key
+ok 11 - rejects: old roles key
+  ---
+  duration_ms: 2.653713
+  type: 'test'
+  ...
+# Subtest: rejects: old rubricRef key
+ok 12 - rejects: old rubricRef key
+  ---
+  duration_ms: 2.026184
+  type: 'test'
+  ...
+# Subtest: rejects: old cannotEstablish key
+ok 13 - rejects: old cannotEstablish key
+  ---
+  duration_ms: 2.021452
+  type: 'test'
+  ...
+# Subtest: rejects: object-valued difficulty mapping
+ok 14 - rejects: object-valued difficulty mapping
+  ---
+  duration_ms: 1.578324
+  type: 'test'
+  ...
+# Subtest: rejects: unknown skill id
+ok 15 - rejects: unknown skill id
+  ---
+  duration_ms: 0.910283
+  type: 'test'
+  ...
+# Subtest: rejects: wrong umbrella
+ok 16 - rejects: wrong umbrella
+  ---
+  duration_ms: 0.514689
+  type: 'test'
+  ...
+# Subtest: rejects: mismatched gameVersion
+ok 17 - rejects: mismatched gameVersion
+  ---
+  duration_ms: 1.212673
+  type: 'test'
+  ...
+# Subtest: rejects: obsolete returnNavigation keys
+ok 18 - rejects: obsolete returnNavigation keys
+  ---
+  duration_ms: 2.500767
+  type: 'test'
+  ...
+# Subtest: rejects: invented top-level field
+ok 19 - rejects: invented top-level field
+  ---
+  duration_ms: 2.176706
+  type: 'test'
+  ...
+# Subtest: rejects: metadata declaration mismatch
+ok 20 - rejects: metadata declaration mismatch
+  ---
+  duration_ms: 2.112653
+  type: 'test'
+  ...
+# Subtest: rejects: mode not in playModes
+ok 21 - rejects: mode not in playModes
+  ---
+  duration_ms: 1.861406
+  type: 'test'
+  ...
+# Subtest: rejects: unresolved rubric anchor
+ok 22 - rejects: unresolved rubric anchor
+  ---
+  duration_ms: 2.287136
+  type: 'test'
+  ...
+# Subtest: rejects: primary repeated as secondary
+ok 23 - rejects: primary repeated as secondary
+  ---
+  duration_ms: 0.594632
+  type: 'test'
+  ...
+# Subtest: source preflight blocks forbidden paths, allows .env.example
+ok 24 - source preflight blocks forbidden paths, allows .env.example
+  ---
+  duration_ms: 0.653165
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 158.05271
+TAP version 13
+# Subtest: V01/V02 standalone boot, stdout contract, null identity
+ok 1 - V01/V02 standalone boot, stdout contract, null identity
+  ---
+  duration_ms: 590.7523
+  type: 'test'
+  ...
+# Subtest: V03 every host operation requires the host key
+ok 2 - V03 every host operation requires the host key
+  ---
+  duration_ms: 168.639174
+  type: 'test'
+  ...
+# Subtest: integrated play through the gateway (V04-V13, V15, V17-V19, V24)
+    # Subtest: V24 settings configurable in lobby, then locked
+    ok 1 - V24 settings configurable in lobby, then locked
+      ---
+      duration_ms: 27.682937
+      type: 'test'
+      ...
+    # Subtest: V04 identical nicknames, distinct accounts
+    ok 2 - V04 identical nicknames, distinct accounts
+      ---
+      duration_ms: 48.176643
+      type: 'test'
+      ...
+    # Subtest: V15 approved return destination exposed
+    ok 3 - V15 approved return destination exposed
+      ---
+      duration_ms: 3.805377
+      type: 'test'
+      ...
+    # Subtest: V05 rename keeps ownership
+    ok 4 - V05 rename keeps ownership
+      ---
+      duration_ms: 32.213762
+      type: 'test'
+      ...
+    # Subtest: V06 spoofed identity header/body/query cannot switch account
+    ok 5 - V06 spoofed identity header/body/query cannot switch account
+      ---
+      duration_ms: 10.377741
+      type: 'test'
+      ...
+    # Subtest: V08 B cannot use A seat token
+    ok 6 - V08 B cannot use A seat token
+      ---
+      duration_ms: 7.290896
+      type: 'test'
+      ...
+    # Subtest: V09 second tab resumes the same seat
+    ok 7 - V09 second tab resumes the same seat
+      ---
+      duration_ms: 9.008639
+      type: 'test'
+      ...
+    # Subtest: V14 failed durable save is not acknowledged; retry works without duplicates
+    ok 8 - V14 failed durable save is not acknowledged; retry works without duplicates
+      ---
+      duration_ms: 146.062648
+      type: 'test'
+      ...
+    # Subtest: V10 abrupt restart preserves seat and accepted actions
+    ok 9 - V10 abrupt restart preserves seat and accepted actions
+      ---
+      duration_ms: 97.150776
+      type: 'test'
+      ...
+    # Subtest: V12 early leave saves once, others unaffected
+    ok 10 - V12 early leave saves once, others unaffected
+      ---
+      duration_ms: 42.767233
+      type: 'test'
+      ...
+    # Subtest: V13 completed player returns, completion kept
+    ok 11 - V13 completed player returns, completion kept
+      ---
+      duration_ms: 49.005722
+      type: 'test'
+      ...
+    # Subtest: V18/V11/V17/V04 final report through real actions
+    ok 12 - V18/V11/V17/V04 final report through real actions
+      ---
+      duration_ms: 9.280105
+      type: 'test'
+      ...
+    # Subtest: V19 immutable: double end, leave after end and restart keep one report
+    ok 13 - V19 immutable: double end, leave after end and restart keep one report
+      ---
+      duration_ms: 242.307695
+      type: 'test'
+      ...
+    # Subtest: V25 local validator rejects bad provenance (local-only)
+    ok 14 - V25 local validator rejects bad provenance (local-only)
+      ---
+      duration_ms: 1.652132
+      type: 'test'
+      ...
+    # Subtest: session identity conflict rejected
+    ok 15 - session identity conflict rejected
+      ---
+      duration_ms: 5.391456
+      type: 'test'
+      ...
+    1..15
+ok 3 - integrated play through the gateway (V04-V13, V15, V17-V19, V24)
+  ---
+  duration_ms: 869.259235
+  type: 'test'
+  ...
+# Subtest: V24 every difficulty records its code and level; complex accepts all probe kinds
+ok 4 - V24 every difficulty records its code and level; complex accepts all probe kinds
+  ---
+  duration_ms: 700.468916
+  type: 'test'
+  ...
+# Subtest: V20 SIGTERM mid-match writes a bounded abandoned report, keeps completed players
+ok 5 - V20 SIGTERM mid-match writes a bounded abandoned report, keeps completed players
+  ---
+  duration_ms: 284.403014
+  type: 'test'
+  ...
+# Subtest: V21 report write failure retries with the same id; capacity bound enforced
+ok 6 - V21 report write failure retries with the same id; capacity bound enforced
+  ---
+  duration_ms: 322.972599
+  type: 'test'
+  ...
+# Subtest: V15/V16 return destination rules
+ok 7 - V15/V16 return destination rules
+  ---
+  duration_ms: 0.475306
+  type: 'test'
+  ...
+# Subtest: V22 rating boundaries and minimum samples
+ok 8 - V22 rating boundaries and minimum samples
+  ---
+  duration_ms: 0.128513
+  type: 'test'
+  ...
+# Subtest: JS port matches real Java patient on probe grid
+ok 9 - JS port matches real Java patient on probe grid
+  ---
+  duration_ms: 1432.65723
+  type: 'test'
+  ...
+# Subtest: every mutant is killable by some grid probe, and every bug is exhibited
+ok 10 - every mutant is killable by some grid probe, and every bug is exhibited
+  ---
+  duration_ms: 457.052874
+  type: 'test'
+  ...
+1..10
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3120.518484

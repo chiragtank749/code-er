@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code ER — Safety Net Lab</title>
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<header>
+  <h1><span class="beat" aria-hidden="true">♥</span> Code ER · Safety Net Lab</h1>
+  <button id="exitBtn" class="exit" type="button">Leave game</button>
+</header>
+<main>
+  <p id="banner" class="muted" role="status"></p>
+  <section id="joinView" class="panel hidden" aria-labelledby="joinH">
+    <h2 id="joinH">Join the operating theatre</h2>
+    <p class="muted">Write characterization probes that lock in what the 2016 <code>RideBookingService</code> <em>does</em>, then run them against the trainer's secretly broken copies.</p>
+    <label for="nick">Nickname</label><input id="nick" maxlength="30" autocomplete="nickname">
+    <label for="team">Team</label><select id="team"></select>
+    <div class="actions"><button id="joinBtn" class="primary" type="button">Join</button></div>
+    <p id="joinErr" class="err" role="alert"></p>
+  </section>
+
+  <section id="waitView" class="panel hidden"><h2>Lobby</h2><p>You're in, <strong id="waitNick"></strong>. Waiting for the host to start the <span id="waitDiff"></span> match…</p>
+    <label for="rename">Change nickname</label><div class="row"><input id="rename" maxlength="30"><button id="renameBtn" type="button">Rename</button></div></section>
+
+  <section id="playView" class="hidden">
+    <div class="grid">
+      <div class="panel">
+        <h2>Probe the patient</h2>
+        <p class="muted" id="diffLine"></p>
+        <label for="kind">What to call</label><select id="kind"></select>
+        <div id="fields" class="row"></div>
+        <p class="muted">Blank text = <code>null</code>. Type <code>''</code> for an empty string.</p>
+        <div class="actions"><button id="runBtn" type="button">Run on original</button></div>
+        <pre id="obs" class="obs" aria-live="polite">Run a probe to see what the original code does.</pre>
+        <label for="flag">Looks like a bug? (optional — log it, don't fix it)</label><select id="flag"></select>
+        <div class="actions"><button id="lockBtn" class="primary" type="button">Lock in as characterization test</button></div>
+        <p id="playErr" class="err" role="alert"></p>
+      </div>
+      <div class="panel">
+        <h2>Your safety net</h2>
+        <div class="progress" aria-hidden="true"><div id="bar" style="width:0"></div></div>
+        <p id="progressText"></p>
+        <ul id="probeList" class="probes"></ul>
+        <div class="actions"><button id="submitBtn" class="good" type="button">Run the heart monitor</button></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resultView" class="panel hidden">
+    <h2>Monitor result</h2>
+    <p class="vitals" id="vitals"></p>
+    <p id="resultText"></p>
+    <details><summary>Broken copies you caught</summary><ul id="killedList"></ul></details>
+    <div id="boardWrap" class="hidden"><h2 style="margin-top:16px">Final board</h2><div class="tablewrap"><table><thead><tr><th>Rank</th><th>Player</th><th>Team</th><th>Caught</th></tr></thead><tbody id="board"></tbody></table></div></div>
+  </section>
+
+  <section id="leftView" class="panel hidden"><h2>You left</h2><p id="leftText"></p></section>
+</main>
+
+<dialog id="leaveDlg" aria-labelledby="leaveH">
+  <h2 id="leaveH">Leave this match?</h2>
+  <p id="leaveMsg">Leaving before you lock your probes and run the monitor does not earn completion credit.</p>
+  <p id="leaveErr" class="err" role="alert"></p>
+  <div class="actions">
+    <button id="leaveCancel" type="button">Keep playing</button>
+    <button id="leaveConfirm" class="primary" type="button">Leave game</button>
+    <button id="leaveAnyway" class="hidden" type="button">Leave without saving</button>
+  </div>
+</dialog>
+<script src="static/app.js"></script>
+</body>
+</html>

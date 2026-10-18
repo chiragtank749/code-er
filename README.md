@@ -96,3 +96,14 @@ mvn test
 ```
 
 A clean refactor that keeps every behaviour is on the `model-solution` branch.
+
+## Safety Net Lab (web companion)
+
+A browser version of Round 2 that every player can do individually, at four difficulty levels (easy, medium, hard, complex). It needs Node 18+ and has no dependencies:
+
+```bash
+npm start            # prints HOST LINK, PLAYER LINK and HOST KEY
+npm run test:bridge  # artifact checks, Java parity, bridge tests
+```
+
+See `docs/LAUNCHDECK_BRIDGE.md` for the Krilern integration.

@@ -1,0 +1,13 @@
+UTC 2026-10-18T09:35:16.550Z
+- host opened console with HOST KEY and chose Medium difficulty
+- account A joined as CyberTiger
+- account B joined with the identical nickname CyberTiger
+- host started the match
+- account A locked 10 probes through the real UI (fare, book, cancel), flagging 3 suspected bugs
+- account B played on a 360x640 mobile viewport
+- no horizontal overflow and exit control visible at 390 and 320 CSS px
+- Leave game opens a confirmation by keyboard; cancelled
+- account A ran the heart monitor: 16 / 20 broken copies caught
+- host ended the session; final board shown
+- Return to Krilern navigated the same tab to the approved portal origin
+- report reports/20261018T093515Z-b1756b07-70a8-4443-b9e2-fe600c1d900c.json participants: CyberTiger/acct-A/completed=true, CyberTiger/acct-B/completed=false

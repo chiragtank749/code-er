@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "name": "Code ER: the patient must survive",
+  "category": "CS / IT",
+  "tags": [
+    "team",
+    "cs-it",
+    "refactoring",
+    "characterization-testing",
+    "java",
+    "code-smells",
+    "mutation-testing"
+  ],
+  "description": "Teams refactor a legacy Java RideBookingService without changing a single behaviour, graded by a trainer-held hidden test suite. The built-in Safety Net Lab lets each player probe the original code, lock in characterization tests, log suspected bugs and run them against secretly broken copies, at four difficulty levels (easy, medium, hard, complex).",
+  "instructions": "1. Host opens HOST LINK, enters HOST KEY, picks a difficulty (easy, medium, hard or complex) and the number of teams.\n2. Share PLAYER LINK; players join with a nickname and pick their team.\n3. Host starts the match. Each player probes the original RideBookingService, locks in characterization probes, flags anything that looks like a bug, then runs the heart monitor against the hidden broken copies.\n4. Host ends the session to write the final report.\n5. Players use Return to Krilern after finishing.\nThe Java refactoring rounds in README.md (branches, mvn test, trainer monitor) run alongside the lab as before.",
+  "video": "",
+  "communityUrl": "",
+  "gameId": "code-er-ride-booking",
+  "gameVersion": "1.1.0",
+  "playModes": [
+    "team"
+  ],
+  "players": {
+    "min": 2,
+    "max": 200,
+    "teamSize": {
+      "min": 1,
+      "max": 6
+    }
+  },
+  "durationMinutes": 120,
+  "level": "intermediate",
+  "domains": [
+    "cs-it"
+  ],
+  "topics": [
+    "refactoring",
+    "characterization-testing",
+    "mutation-testing",
+    "code-smells",
+    "legacy-code"
+  ],
+  "skills": {
+    "technical": [
+      {
+        "id": "test-design",
+        "measuredBy": "Individual Safety Net Lab score: how many of the difficulty level's secretly broken copies of RideBookingService the player's own locked characterization probes catch."
+      }
+    ],
+    "interpersonal": [
+      {
+        "id": "attention-to-detail",
+        "measuredBy": "Error detection: suspected bugs in the answer key that the player flags on a probe that actually reproduces them (logged, not fixed)."
+      }
+    ]
+  },
+  "runtime": {
+    "mode": "node",
+    "buildCommand": "npm ci",
+    "startCommand": "node lab/server.mjs",
+    "internalPort": 3000,
+    "healthPath": "/healthz",
+    "hostPath": "/host",
+    "playerPath": "/join",
+    "credentialMode": "injected",
+    "hostKeyVariable": "HOST_KEY",
+    "supportsSolo": false,
+    "composeFile": "",
+    "publicService": ""
+  },
+  "report": {
+    "emitsGameReport": true,
+    "reportSchemaVersion": 1
+  }
+}

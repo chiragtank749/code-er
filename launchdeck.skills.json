@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "type": "launchdeck.game-skill-profile",
+  "catalogueVersion": "launchdeck-skills-1.0.0",
+  "gameId": "code-er-ride-booking",
+  "gameVersion": "1.1.0",
+  "primarySkill": {
+    "skillId": "test-design",
+    "family": "domain",
+    "role": "primary",
+    "v1Type": "technical",
+    "v1SkillId": "test-design",
+    "measuredBy": "Each broken copy (mutant) in the match difficulty is one observation; it is a success when at least one of the player's own locked probes produces a different observable result on that copy than on the original. Evaluated server-side when the player runs the heart monitor.",
+    "minimumObservations": 5,
+    "metrics": [
+      "sk_test-design_observations",
+      "sk_test-design_successes",
+      "sk_test-design_rating",
+      "sk_test-design_level"
+    ],
+    "thresholds": "At least 5 observations (every level has 8 or more). Success rate >=0.90 gives 5, >=0.70 gives 4, >=0.50 gives 3, >=0.25 gives 2, otherwise 1.",
+    "applicableModes": [
+      "team"
+    ],
+    "applicableRoles": [],
+    "rubricReference": "docs/SKILL_RUBRICS.md#test-design",
+    "limitations": "Individual evidence from the lab's fixed mutant set for one difficulty; it does not measure general testing ability or the team's Java refactoring, which the trainer grades separately."
+  },
+  "secondarySkills": [
+    {
+      "skillId": "error-detection",
+      "family": "human",
+      "role": "secondary",
+      "v1Type": "interpersonal",
+      "v1SkillId": "attention-to-detail",
+      "measuredBy": "Each suspected bug in the difficulty answer key is one observation; it is a success when the player flags that bug category on a locked probe that actually reproduces it. Wrong flags are counted separately and never add successes.",
+      "minimumObservations": 3,
+      "metrics": [
+        "sk_error-detection_observations",
+        "sk_error-detection_successes",
+        "sk_error-detection_rating",
+        "sk_error-detection_level"
+      ],
+      "thresholds": "At least 3 observations. Success rate >=0.90 gives 5, >=0.70 gives 4, >=0.50 gives 3, >=0.25 gives 2, otherwise 1.",
+      "applicableModes": [
+        "team"
+      ],
+      "applicableRoles": [],
+      "rubricReference": "docs/SKILL_RUBRICS.md#error-detection",
+      "limitations": "Individual evidence against a fixed answer key; it does not establish general carefulness, and choosing a category from a list is easier than discovering a bug unaided."
+    }
+  ],
+  "supportedSkillLevels": [
+    "beginner",
+    "intermediate",
+    "advanced"
+  ],
+  "difficultyToSkillLevel": {
+    "easy": "beginner",
+    "medium": "intermediate",
+    "hard": "advanced",
+    "complex": "advanced"
+  },
+  "rubricVersion": 1,
+  "completionRule": "A player completes when they lock at least the difficulty's required probes (easy 5, medium 8, hard 10, complex 12) and run the heart monitor. Required units = required probes + 1 monitor run. Duplicate probes do not count. Completion survives disconnects and the session ending. Leaving before that is recorded as left early; rejoining after leaving is not allowed.",
+  "winRule": "Objective success: a completed player whose probes catch at least 70% of the difficulty's broken copies. Not based on rank. No bots. Team score is the union of members' caught copies and is reported only on teams; ties share rank.",
+  "legacyAliases": {},
+  "returnNavigation": {
+    "portalUrlEnv": "LAUNCHDECK_PORTAL_URL",
+    "returnUrlEnv": "LAUNCHDECK_RETURN_URL"
+  }
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code ER — Host</title>
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<header><h1><span class="beat" aria-hidden="true">♥</span> Code ER · Host console</h1></header>
+<main>
+  <section id="keyView" class="panel">
+    <h2>Host key</h2>
+    <label for="key">Enter the HOST KEY printed when the server started</label>
+    <input id="key" type="password" autocomplete="off">
+    <div class="actions"><button id="keyBtn" class="primary" type="button">Open console</button></div>
+    <p id="keyErr" class="err" role="alert"></p>
+  </section>
+  <section id="console" class="hidden">
+    <div class="grid">
+      <div class="panel">
+        <h2>Match</h2>
+        <p id="status"></p>
+        <label for="diff">Difficulty</label><select id="diff"></select>
+        <label for="teams">Teams</label><input id="teams" type="number" min="1" max="20">
+        <div class="actions">
+          <button id="saveBtn" type="button">Save settings</button>
+          <button id="startBtn" class="primary" type="button">Start match</button>
+          <button id="endBtn" type="button">End session</button>
+          <button id="newBtn" type="button">New match</button>
+          <button id="dlBtn" type="button">Download report</button>
+        </div>
+        <p id="hostErr" class="err" role="alert"></p>
+      </div>
+      <div class="panel"><h2>Difficulty levels</h2><div class="tablewrap"><table><thead><tr><th>Level</th><th>Broken copies</th><th>Bugs</th><th>Probes</th></tr></thead><tbody id="levels"></tbody></table></div></div>
+    </div>
+    <div class="panel"><h2>Roster</h2><div class="tablewrap"><table><thead><tr><th>Player</th><th>Team</th><th>Account</th><th>Status</th><th>Probes</th><th>Caught</th><th>Bugs</th><th>Complete</th></tr></thead><tbody id="roster"></tbody></table></div></div>
+  </section>
+</main>
+<script src="static/host.js"></script>
+</body>
+</html>
