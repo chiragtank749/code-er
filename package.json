@@ -1,0 +1,8 @@
+{
+  "name": "code-er-launchdeck-tools",
+  "private": true,
+  "description": "Krilern artifact checks for Code ER. The game itself is Java/Maven; this file holds no dependencies.",
+  "scripts": {
+    "test:launchdeck": "node tools/launchdeck-validate.mjs && node --test tools/launchdeck-validate.test.mjs"
+  }
+}

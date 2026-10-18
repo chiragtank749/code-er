@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "type": "launchdeck.game-skill-profile",
+  "catalogueVersion": "launchdeck-skills-1.0.0",
+  "gameId": "code-er-ride-booking",
+  "gameVersion": "1.0.0",
+  "primarySkill": {
+    "skillId": "test-design",
+    "family": "domain",
+    "role": "primary",
+    "v1Type": "technical",
+    "v1SkillId": "test-design",
+    "measuredBy": "Each secretly broken copy (mutant) of RideBookingService the trainer runs against the team's CharacterizationTest is one observation; it is a success when at least one test in that file fails on the mutant while every test passes on the original patient-v0 code. Counted per team branch.",
+    "minimumObservations": 5,
+    "metrics": [
+      "sk_test-design_observations",
+      "sk_test-design_successes"
+    ],
+    "thresholds": "At least 5 observations, and the file must pass on the original code (otherwise no rating). Success rate >=0.90 gives 5, >=0.70 gives 4, >=0.50 gives 3, >=0.25 gives 2, otherwise 1.",
+    "applicableModes": [
+      "team"
+    ],
+    "applicableRoles": [],
+    "rubricReference": "docs/SKILL_RUBRICS.md#test-design",
+    "limitations": "Team-branch evidence produced by the trainer's offline kit; it cannot be attributed to an individual player, does not measure general testing ability, and depends on the trainer's specific mutant set."
+  },
+  "secondarySkills": [
+    {
+      "skillId": "error-detection",
+      "family": "human",
+      "role": "secondary",
+      "v1Type": "interpersonal",
+      "v1SkillId": "attention-to-detail",
+      "measuredBy": "Each seeded suspected bug in the answer key is one observation; it is a success when the team's SURGERY_NOTES.md logs it with a reproducing input and the production code still exhibits the original behaviour (logged, not fixed).",
+      "minimumObservations": 3,
+      "metrics": [
+        "sk_error-detection_observations",
+        "sk_error-detection_successes"
+      ],
+      "thresholds": "At least 3 observations. Success rate >=0.90 gives 5, >=0.70 gives 4, >=0.50 gives 3, >=0.25 gives 2, otherwise 1.",
+      "applicableModes": [
+        "team"
+      ],
+      "applicableRoles": [],
+      "rubricReference": "docs/SKILL_RUBRICS.md#error-detection",
+      "limitations": "Team-level evidence judged by the trainer against a fixed answer key; it cannot be attributed to an individual and does not establish general carefulness."
+    }
+  ],
+  "supportedSkillLevels": [
+    "intermediate"
+  ],
+  "difficultyToSkillLevel": {
+    "standard": "intermediate"
+  },
+  "rubricVersion": 1,
+  "completionRule": "A team completes when its branch compiles at the final buzzer, Round 3 contains changes to src/main/java and its CharacterizationTest passes on the original code. Individual completion is not observable in this repository; see docs/LAUNCHDECK_BRIDGE.md.",
+  "winRule": "Objective team result is the README scoring total (survival, safety net, smells, bugs, minus tokens); highest total wins, ties share rank. Individual wins are not reported.",
+  "legacyAliases": {},
+  "returnNavigation": {
+    "portalUrlEnv": "LAUNCHDECK_PORTAL_URL",
+    "returnUrlEnv": "LAUNCHDECK_RETURN_URL"
+  }
+}

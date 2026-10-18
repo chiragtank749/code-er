@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "name": "Code ER: the patient must survive",
+  "category": "CS / IT",
+  "tags": ["team", "cs-it", "refactoring", "characterization-testing", "java", "code-smells"],
+  "description": "Teams refactor a legacy Java RideBookingService into clean code without changing a single behaviour. A trainer-held hidden test suite (the heart monitor) checks every team branch after each round. Teams also write characterization tests that are scored against secretly broken copies of the original code, and log suspected bugs instead of fixing them.",
+  "instructions": "1. The trainer creates one branch per team (team-1, team-2, ...) and shares the repository.\n2. Each team clones, checks out its branch and gets mvn test green (Java 17+, Maven).\n3. Round 1: refactor with no safety net and push before the buzzer.\n4. Autopsy: the trainer runs the hidden monitor and shows which vitals died.\n5. Round 2: reset the production code and write characterization tests in CharacterizationTest.java.\n6. Round 3: refactor again, running your own tests after every step.\n7. Final monitor and reveal: scores, hidden tests and answer keys. Players use Return to Krilern from the portal after the debrief.",
+  "video": "",
+  "communityUrl": "",
+  "gameId": "code-er-ride-booking",
+  "gameVersion": "1.0.0",
+  "playModes": ["team"],
+  "players": { "min": 3, "max": 60, "teamSize": { "min": 3, "max": 6 } },
+  "durationMinutes": 120,
+  "level": "intermediate",
+  "domains": ["cs-it"],
+  "topics": ["refactoring", "characterization-testing", "code-smells", "legacy-code"],
+  "skills": {
+    "technical": [
+      { "id": "test-design", "measuredBy": "Number of the trainer's secretly broken copies of RideBookingService that the team's CharacterizationTest detects (mutation-style safety-net score). Team-level evidence." }
+    ],
+    "interpersonal": [
+      { "id": "attention-to-detail", "measuredBy": "Error detection: seeded suspected bugs correctly logged (not fixed) in SURGERY_NOTES.md, checked by the trainer against the answer key. Team-level evidence." }
+    ]
+  },
+  "runtime": {
+    "mode": "none",
+    "buildCommand": "mvn -q test",
+    "startCommand": "",
+    "internalPort": 0,
+    "healthPath": "",
+    "hostPath": "",
+    "playerPath": "",
+    "credentialMode": "none",
+    "hostKeyVariable": "",
+    "supportsSolo": false,
+    "composeFile": "",
+    "publicService": ""
+  },
+  "report": { "emitsGameReport": false, "reportSchemaVersion": 1 }
+}

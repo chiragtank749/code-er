@@ -1,0 +1,1407 @@
+{
+  "catalogueVersion": "launchdeck-skills-1.0.0",
+  "domainSkills": [
+    {
+      "id": "algorithm-design",
+      "label": "Algorithm design",
+      "group": "Programming foundations"
+    },
+    {
+      "id": "data-structures",
+      "label": "Data structures",
+      "group": "Programming foundations"
+    },
+    {
+      "id": "computational-complexity",
+      "label": "Computational complexity",
+      "group": "Programming foundations"
+    },
+    {
+      "id": "control-flow",
+      "label": "Control flow",
+      "group": "Programming foundations"
+    },
+    {
+      "id": "functional-programming",
+      "label": "Functional programming",
+      "group": "Programming foundations"
+    },
+    {
+      "id": "object-oriented-design",
+      "label": "Object oriented design",
+      "group": "Programming foundations"
+    },
+    {
+      "id": "recursion",
+      "label": "Recursion",
+      "group": "Programming foundations"
+    },
+    {
+      "id": "concurrency",
+      "label": "Concurrency",
+      "group": "Programming foundations"
+    },
+    {
+      "id": "memory-management",
+      "label": "Memory management",
+      "group": "Programming foundations"
+    },
+    {
+      "id": "debugging",
+      "label": "Debugging",
+      "group": "Programming foundations"
+    },
+    {
+      "id": "requirements-analysis",
+      "label": "Requirements analysis",
+      "group": "Software engineering"
+    },
+    {
+      "id": "software-architecture",
+      "label": "Software architecture",
+      "group": "Software engineering"
+    },
+    {
+      "id": "api-design",
+      "label": "API design",
+      "group": "Software engineering"
+    },
+    {
+      "id": "unit-testing",
+      "label": "Unit testing",
+      "group": "Software engineering"
+    },
+    {
+      "id": "integration-testing",
+      "label": "Integration testing",
+      "group": "Software engineering"
+    },
+    {
+      "id": "test-design",
+      "label": "Test design",
+      "group": "Software engineering"
+    },
+    {
+      "id": "version-control",
+      "label": "Version control",
+      "group": "Software engineering"
+    },
+    {
+      "id": "code-review",
+      "label": "Code review",
+      "group": "Software engineering"
+    },
+    {
+      "id": "continuous-delivery",
+      "label": "Continuous delivery",
+      "group": "Software engineering"
+    },
+    {
+      "id": "software-reliability",
+      "label": "Software reliability",
+      "group": "Software engineering"
+    },
+    {
+      "id": "operating-systems",
+      "label": "Operating systems",
+      "group": "IT systems, networks and cloud"
+    },
+    {
+      "id": "linux-administration",
+      "label": "Linux administration",
+      "group": "IT systems, networks and cloud"
+    },
+    {
+      "id": "network-protocols",
+      "label": "Network protocols",
+      "group": "IT systems, networks and cloud"
+    },
+    {
+      "id": "network-routing",
+      "label": "Network routing",
+      "group": "IT systems, networks and cloud"
+    },
+    {
+      "id": "dns-troubleshooting",
+      "label": "DNS troubleshooting",
+      "group": "IT systems, networks and cloud"
+    },
+    {
+      "id": "http-protocols",
+      "label": "HTTP protocols",
+      "group": "IT systems, networks and cloud"
+    },
+    {
+      "id": "cloud-architecture",
+      "label": "Cloud architecture",
+      "group": "IT systems, networks and cloud"
+    },
+    {
+      "id": "containerisation",
+      "label": "Containerisation",
+      "group": "IT systems, networks and cloud"
+    },
+    {
+      "id": "distributed-systems",
+      "label": "Distributed systems",
+      "group": "IT systems, networks and cloud"
+    },
+    {
+      "id": "database-design",
+      "label": "Database design",
+      "group": "IT systems, networks and cloud"
+    },
+    {
+      "id": "phishing-detection",
+      "label": "Phishing detection",
+      "group": "Cybersecurity"
+    },
+    {
+      "id": "threat-modelling",
+      "label": "Threat modelling",
+      "group": "Cybersecurity"
+    },
+    {
+      "id": "secure-coding",
+      "label": "Secure coding",
+      "group": "Cybersecurity"
+    },
+    {
+      "id": "authentication-security",
+      "label": "Authentication security",
+      "group": "Cybersecurity"
+    },
+    {
+      "id": "access-control",
+      "label": "Access control",
+      "group": "Cybersecurity"
+    },
+    {
+      "id": "cryptographic-reasoning",
+      "label": "Cryptographic reasoning",
+      "group": "Cybersecurity"
+    },
+    {
+      "id": "network-security",
+      "label": "Network security",
+      "group": "Cybersecurity"
+    },
+    {
+      "id": "vulnerability-assessment",
+      "label": "Vulnerability assessment",
+      "group": "Cybersecurity"
+    },
+    {
+      "id": "incident-response",
+      "label": "Incident response",
+      "group": "Cybersecurity"
+    },
+    {
+      "id": "digital-forensics",
+      "label": "Digital forensics",
+      "group": "Cybersecurity"
+    },
+    {
+      "id": "data-cleaning",
+      "label": "Data cleaning",
+      "group": "Data and AI foundations"
+    },
+    {
+      "id": "data-modelling",
+      "label": "Data modelling",
+      "group": "Data and AI foundations"
+    },
+    {
+      "id": "sql-querying",
+      "label": "SQL querying",
+      "group": "Data and AI foundations"
+    },
+    {
+      "id": "data-visualisation",
+      "label": "Data visualisation",
+      "group": "Data and AI foundations"
+    },
+    {
+      "id": "exploratory-data-analysis",
+      "label": "Exploratory data analysis",
+      "group": "Data and AI foundations"
+    },
+    {
+      "id": "feature-engineering",
+      "label": "Feature engineering",
+      "group": "Data and AI foundations"
+    },
+    {
+      "id": "supervised-learning",
+      "label": "Supervised learning",
+      "group": "Data and AI foundations"
+    },
+    {
+      "id": "unsupervised-learning",
+      "label": "Unsupervised learning",
+      "group": "Data and AI foundations"
+    },
+    {
+      "id": "model-evaluation",
+      "label": "Model evaluation",
+      "group": "Data and AI foundations"
+    },
+    {
+      "id": "data-leakage-detection",
+      "label": "Data leakage detection",
+      "group": "Data and AI foundations"
+    },
+    {
+      "id": "neural-network-reasoning",
+      "label": "Neural network reasoning",
+      "group": "Applied and responsible AI"
+    },
+    {
+      "id": "natural-language-processing",
+      "label": "Natural language processing",
+      "group": "Applied and responsible AI"
+    },
+    {
+      "id": "computer-vision",
+      "label": "Computer vision",
+      "group": "Applied and responsible AI"
+    },
+    {
+      "id": "reinforcement-learning",
+      "label": "Reinforcement learning",
+      "group": "Applied and responsible AI"
+    },
+    {
+      "id": "prompt-design",
+      "label": "Prompt design",
+      "group": "Applied and responsible AI"
+    },
+    {
+      "id": "retrieval-system-design",
+      "label": "Retrieval system design",
+      "group": "Applied and responsible AI"
+    },
+    {
+      "id": "ai-output-verification",
+      "label": "AI output verification",
+      "group": "Applied and responsible AI"
+    },
+    {
+      "id": "ai-fairness-analysis",
+      "label": "AI fairness analysis",
+      "group": "Applied and responsible AI"
+    },
+    {
+      "id": "ai-privacy-protection",
+      "label": "AI privacy protection",
+      "group": "Applied and responsible AI"
+    },
+    {
+      "id": "ai-risk-assessment",
+      "label": "AI risk assessment",
+      "group": "Applied and responsible AI"
+    },
+    {
+      "id": "engineering-statics",
+      "label": "Engineering statics",
+      "group": "Mechanical and manufacturing engineering"
+    },
+    {
+      "id": "engineering-dynamics",
+      "label": "Engineering dynamics",
+      "group": "Mechanical and manufacturing engineering"
+    },
+    {
+      "id": "strength-of-materials",
+      "label": "Strength of materials",
+      "group": "Mechanical and manufacturing engineering"
+    },
+    {
+      "id": "machine-design",
+      "label": "Machine design",
+      "group": "Mechanical and manufacturing engineering"
+    },
+    {
+      "id": "manufacturing-processes",
+      "label": "Manufacturing processes",
+      "group": "Mechanical and manufacturing engineering"
+    },
+    {
+      "id": "dimensional-metrology",
+      "label": "Dimensional metrology",
+      "group": "Mechanical and manufacturing engineering"
+    },
+    {
+      "id": "mechanical-fault-diagnosis",
+      "label": "Mechanical fault diagnosis",
+      "group": "Mechanical and manufacturing engineering"
+    },
+    {
+      "id": "maintenance-planning",
+      "label": "Maintenance planning",
+      "group": "Mechanical and manufacturing engineering"
+    },
+    {
+      "id": "production-planning",
+      "label": "Production planning",
+      "group": "Mechanical and manufacturing engineering"
+    },
+    {
+      "id": "resonance-reasoning",
+      "label": "Resonance reasoning",
+      "group": "Mechanical and manufacturing engineering"
+    },
+    {
+      "id": "dc-circuit-analysis",
+      "label": "DC circuit analysis",
+      "group": "Electrical and electronics engineering"
+    },
+    {
+      "id": "ac-circuit-analysis",
+      "label": "AC circuit analysis",
+      "group": "Electrical and electronics engineering"
+    },
+    {
+      "id": "electromagnetic-field-analysis",
+      "label": "Electromagnetic field analysis",
+      "group": "Electrical and electronics engineering"
+    },
+    {
+      "id": "analog-electronics",
+      "label": "Analog electronics",
+      "group": "Electrical and electronics engineering"
+    },
+    {
+      "id": "digital-logic",
+      "label": "Digital logic",
+      "group": "Electrical and electronics engineering"
+    },
+    {
+      "id": "power-system-analysis",
+      "label": "Power system analysis",
+      "group": "Electrical and electronics engineering"
+    },
+    {
+      "id": "electric-machine-analysis",
+      "label": "Electric machine analysis",
+      "group": "Electrical and electronics engineering"
+    },
+    {
+      "id": "control-system-design",
+      "label": "Control system design",
+      "group": "Electrical and electronics engineering"
+    },
+    {
+      "id": "signal-processing",
+      "label": "Signal processing",
+      "group": "Electrical and electronics engineering"
+    },
+    {
+      "id": "embedded-system-design",
+      "label": "Embedded system design",
+      "group": "Electrical and electronics engineering"
+    },
+    {
+      "id": "structural-analysis",
+      "label": "Structural analysis",
+      "group": "Civil, environmental and systems engineering"
+    },
+    {
+      "id": "geotechnical-reasoning",
+      "label": "Geotechnical reasoning",
+      "group": "Civil, environmental and systems engineering"
+    },
+    {
+      "id": "hydraulic-system-analysis",
+      "label": "Hydraulic system analysis",
+      "group": "Civil, environmental and systems engineering"
+    },
+    {
+      "id": "construction-planning",
+      "label": "Construction planning",
+      "group": "Civil, environmental and systems engineering"
+    },
+    {
+      "id": "transport-network-design",
+      "label": "Transport network design",
+      "group": "Civil, environmental and systems engineering"
+    },
+    {
+      "id": "water-treatment-design",
+      "label": "Water treatment design",
+      "group": "Civil, environmental and systems engineering"
+    },
+    {
+      "id": "environmental-impact-analysis",
+      "label": "Environmental impact analysis",
+      "group": "Civil, environmental and systems engineering"
+    },
+    {
+      "id": "engineering-risk-analysis",
+      "label": "Engineering risk analysis",
+      "group": "Civil, environmental and systems engineering"
+    },
+    {
+      "id": "systems-integration",
+      "label": "Systems integration",
+      "group": "Civil, environmental and systems engineering"
+    },
+    {
+      "id": "engineering-optimisation",
+      "label": "Engineering optimisation",
+      "group": "Civil, environmental and systems engineering"
+    },
+    {
+      "id": "mass-balance-analysis",
+      "label": "Mass balance analysis",
+      "group": "Chemical, materials, aerospace and biomedical engineering"
+    },
+    {
+      "id": "energy-balance-analysis",
+      "label": "Energy balance analysis",
+      "group": "Chemical, materials, aerospace and biomedical engineering"
+    },
+    {
+      "id": "reaction-engineering",
+      "label": "Reaction engineering",
+      "group": "Chemical, materials, aerospace and biomedical engineering"
+    },
+    {
+      "id": "process-control",
+      "label": "Process control",
+      "group": "Chemical, materials, aerospace and biomedical engineering"
+    },
+    {
+      "id": "materials-selection",
+      "label": "Materials selection",
+      "group": "Chemical, materials, aerospace and biomedical engineering"
+    },
+    {
+      "id": "corrosion-analysis",
+      "label": "Corrosion analysis",
+      "group": "Chemical, materials, aerospace and biomedical engineering"
+    },
+    {
+      "id": "aerodynamic-reasoning",
+      "label": "Aerodynamic reasoning",
+      "group": "Chemical, materials, aerospace and biomedical engineering"
+    },
+    {
+      "id": "flight-mechanics",
+      "label": "Flight mechanics",
+      "group": "Chemical, materials, aerospace and biomedical engineering"
+    },
+    {
+      "id": "biomechanical-reasoning",
+      "label": "Biomechanical reasoning",
+      "group": "Chemical, materials, aerospace and biomedical engineering"
+    },
+    {
+      "id": "medical-device-design",
+      "label": "Medical device design",
+      "group": "Chemical, materials, aerospace and biomedical engineering"
+    },
+    {
+      "id": "financial-statement-analysis",
+      "label": "Financial statement analysis",
+      "group": "Finance and accounting"
+    },
+    {
+      "id": "double-entry-accounting",
+      "label": "Double entry accounting",
+      "group": "Finance and accounting"
+    },
+    {
+      "id": "cash-flow-management",
+      "label": "Cash flow management",
+      "group": "Finance and accounting"
+    },
+    {
+      "id": "budgeting",
+      "label": "Budgeting",
+      "group": "Finance and accounting"
+    },
+    {
+      "id": "cost-accounting",
+      "label": "Cost accounting",
+      "group": "Finance and accounting"
+    },
+    {
+      "id": "working-capital-management",
+      "label": "Working capital management",
+      "group": "Finance and accounting"
+    },
+    {
+      "id": "capital-budgeting",
+      "label": "Capital budgeting",
+      "group": "Finance and accounting"
+    },
+    {
+      "id": "break-even-analysis",
+      "label": "Break even analysis",
+      "group": "Finance and accounting"
+    },
+    {
+      "id": "financial-forecasting",
+      "label": "Financial forecasting",
+      "group": "Finance and accounting"
+    },
+    {
+      "id": "internal-control-analysis",
+      "label": "Internal control analysis",
+      "group": "Finance and accounting"
+    },
+    {
+      "id": "time-value-of-money",
+      "label": "Time value of money",
+      "group": "Investment, markets and financial risk"
+    },
+    {
+      "id": "investment-valuation",
+      "label": "Investment valuation",
+      "group": "Investment, markets and financial risk"
+    },
+    {
+      "id": "portfolio-construction",
+      "label": "Portfolio construction",
+      "group": "Investment, markets and financial risk"
+    },
+    {
+      "id": "diversification-analysis",
+      "label": "Diversification analysis",
+      "group": "Investment, markets and financial risk"
+    },
+    {
+      "id": "credit-risk-analysis",
+      "label": "Credit risk analysis",
+      "group": "Investment, markets and financial risk"
+    },
+    {
+      "id": "market-risk-analysis",
+      "label": "Market risk analysis",
+      "group": "Investment, markets and financial risk"
+    },
+    {
+      "id": "liquidity-risk-analysis",
+      "label": "Liquidity risk analysis",
+      "group": "Investment, markets and financial risk"
+    },
+    {
+      "id": "derivatives-reasoning",
+      "label": "Derivatives reasoning",
+      "group": "Investment, markets and financial risk"
+    },
+    {
+      "id": "insurance-risk-analysis",
+      "label": "Insurance risk analysis",
+      "group": "Investment, markets and financial risk"
+    },
+    {
+      "id": "fraud-detection",
+      "label": "Fraud detection",
+      "group": "Investment, markets and financial risk"
+    },
+    {
+      "id": "algebraic-reasoning",
+      "label": "Algebraic reasoning",
+      "group": "Mathematics, probability and statistics"
+    },
+    {
+      "id": "geometric-reasoning",
+      "label": "Geometric reasoning",
+      "group": "Mathematics, probability and statistics"
+    },
+    {
+      "id": "trigonometric-reasoning",
+      "label": "Trigonometric reasoning",
+      "group": "Mathematics, probability and statistics"
+    },
+    {
+      "id": "combinatorial-reasoning",
+      "label": "Combinatorial reasoning",
+      "group": "Mathematics, probability and statistics"
+    },
+    {
+      "id": "discrete-mathematics",
+      "label": "Discrete mathematics",
+      "group": "Mathematics, probability and statistics"
+    },
+    {
+      "id": "probability-calculation",
+      "label": "Probability calculation",
+      "group": "Mathematics, probability and statistics"
+    },
+    {
+      "id": "bayesian-inference",
+      "label": "Bayesian inference",
+      "group": "Mathematics, probability and statistics"
+    },
+    {
+      "id": "statistical-estimation",
+      "label": "Statistical estimation",
+      "group": "Mathematics, probability and statistics"
+    },
+    {
+      "id": "hypothesis-testing",
+      "label": "Hypothesis testing",
+      "group": "Mathematics, probability and statistics"
+    },
+    {
+      "id": "regression-analysis",
+      "label": "Regression analysis",
+      "group": "Mathematics, probability and statistics"
+    },
+    {
+      "id": "differential-calculus",
+      "label": "Differential calculus",
+      "group": "Calculus, numerical methods and optimisation"
+    },
+    {
+      "id": "integral-calculus",
+      "label": "Integral calculus",
+      "group": "Calculus, numerical methods and optimisation"
+    },
+    {
+      "id": "multivariable-calculus",
+      "label": "Multivariable calculus",
+      "group": "Calculus, numerical methods and optimisation"
+    },
+    {
+      "id": "linear-algebra",
+      "label": "Linear algebra",
+      "group": "Calculus, numerical methods and optimisation"
+    },
+    {
+      "id": "differential-equations",
+      "label": "Differential equations",
+      "group": "Calculus, numerical methods and optimisation"
+    },
+    {
+      "id": "numerical-approximation",
+      "label": "Numerical approximation",
+      "group": "Calculus, numerical methods and optimisation"
+    },
+    {
+      "id": "numerical-error-analysis",
+      "label": "Numerical error analysis",
+      "group": "Calculus, numerical methods and optimisation"
+    },
+    {
+      "id": "linear-programming",
+      "label": "Linear programming",
+      "group": "Calculus, numerical methods and optimisation"
+    },
+    {
+      "id": "mathematical-proof",
+      "label": "Mathematical proof",
+      "group": "Calculus, numerical methods and optimisation"
+    },
+    {
+      "id": "mathematical-modelling",
+      "label": "Mathematical modelling",
+      "group": "Calculus, numerical methods and optimisation"
+    },
+    {
+      "id": "kinematic-reasoning",
+      "label": "Kinematic reasoning",
+      "group": "Physics: mechanics, waves and measurement"
+    },
+    {
+      "id": "newtonian-mechanics",
+      "label": "Newtonian mechanics",
+      "group": "Physics: mechanics, waves and measurement"
+    },
+    {
+      "id": "energy-conservation",
+      "label": "Energy conservation",
+      "group": "Physics: mechanics, waves and measurement"
+    },
+    {
+      "id": "momentum-conservation",
+      "label": "Momentum conservation",
+      "group": "Physics: mechanics, waves and measurement"
+    },
+    {
+      "id": "rotational-mechanics",
+      "label": "Rotational mechanics",
+      "group": "Physics: mechanics, waves and measurement"
+    },
+    {
+      "id": "gravitational-reasoning",
+      "label": "Gravitational reasoning",
+      "group": "Physics: mechanics, waves and measurement"
+    },
+    {
+      "id": "oscillation-analysis",
+      "label": "Oscillation analysis",
+      "group": "Physics: mechanics, waves and measurement"
+    },
+    {
+      "id": "wave-interference",
+      "label": "Wave interference",
+      "group": "Physics: mechanics, waves and measurement"
+    },
+    {
+      "id": "acoustic-reasoning",
+      "label": "Acoustic reasoning",
+      "group": "Physics: mechanics, waves and measurement"
+    },
+    {
+      "id": "measurement-uncertainty",
+      "label": "Measurement uncertainty",
+      "group": "Physics: mechanics, waves and measurement"
+    },
+    {
+      "id": "thermal-equilibrium",
+      "label": "Thermal equilibrium",
+      "group": "Physics: thermal, electromagnetic and modern"
+    },
+    {
+      "id": "thermodynamic-reasoning",
+      "label": "Thermodynamic reasoning",
+      "group": "Physics: thermal, electromagnetic and modern"
+    },
+    {
+      "id": "heat-transfer",
+      "label": "Heat transfer",
+      "group": "Physics: thermal, electromagnetic and modern"
+    },
+    {
+      "id": "fluid-mechanics",
+      "label": "Fluid mechanics",
+      "group": "Physics: thermal, electromagnetic and modern"
+    },
+    {
+      "id": "electrostatic-reasoning",
+      "label": "Electrostatic reasoning",
+      "group": "Physics: thermal, electromagnetic and modern"
+    },
+    {
+      "id": "magnetic-force-reasoning",
+      "label": "Magnetic force reasoning",
+      "group": "Physics: thermal, electromagnetic and modern"
+    },
+    {
+      "id": "electromagnetic-induction",
+      "label": "Electromagnetic induction",
+      "group": "Physics: thermal, electromagnetic and modern"
+    },
+    {
+      "id": "optical-reasoning",
+      "label": "Optical reasoning",
+      "group": "Physics: thermal, electromagnetic and modern"
+    },
+    {
+      "id": "quantum-reasoning",
+      "label": "Quantum reasoning",
+      "group": "Physics: thermal, electromagnetic and modern"
+    },
+    {
+      "id": "nuclear-physics-reasoning",
+      "label": "Nuclear physics reasoning",
+      "group": "Physics: thermal, electromagnetic and modern"
+    }
+  ],
+  "humanSkills": [
+    {
+      "id": "communication",
+      "label": "Communication",
+      "v1Umbrella": "communication"
+    },
+    {
+      "id": "active-listening",
+      "label": "Active listening",
+      "v1Umbrella": "communication"
+    },
+    {
+      "id": "clear-explanation",
+      "label": "Clear explanation",
+      "v1Umbrella": "communication"
+    },
+    {
+      "id": "concise-communication",
+      "label": "Concise communication",
+      "v1Umbrella": "communication"
+    },
+    {
+      "id": "audience-awareness",
+      "label": "Audience awareness",
+      "v1Umbrella": "communication"
+    },
+    {
+      "id": "question-formulation",
+      "label": "Question formulation",
+      "v1Umbrella": "communication"
+    },
+    {
+      "id": "evidence-based-explanation",
+      "label": "Evidence based explanation",
+      "v1Umbrella": "communication"
+    },
+    {
+      "id": "feedback-delivery",
+      "label": "Feedback delivery",
+      "v1Umbrella": "communication"
+    },
+    {
+      "id": "feedback-reception",
+      "label": "Feedback reception",
+      "v1Umbrella": "communication"
+    },
+    {
+      "id": "visual-communication",
+      "label": "Visual communication",
+      "v1Umbrella": "communication"
+    },
+    {
+      "id": "collaboration",
+      "label": "Collaboration",
+      "v1Umbrella": "collaboration"
+    },
+    {
+      "id": "role-coordination",
+      "label": "Role coordination",
+      "v1Umbrella": "collaboration"
+    },
+    {
+      "id": "task-sharing",
+      "label": "Task sharing",
+      "v1Umbrella": "collaboration"
+    },
+    {
+      "id": "knowledge-sharing",
+      "label": "Knowledge sharing",
+      "v1Umbrella": "collaboration"
+    },
+    {
+      "id": "peer-support",
+      "label": "Peer support",
+      "v1Umbrella": "collaboration"
+    },
+    {
+      "id": "team-bonding",
+      "label": "Team bonding",
+      "v1Umbrella": "collaboration"
+    },
+    {
+      "id": "trust-building",
+      "label": "Trust building",
+      "v1Umbrella": "collaboration"
+    },
+    {
+      "id": "shared-goal-alignment",
+      "label": "Shared goal alignment",
+      "v1Umbrella": "collaboration"
+    },
+    {
+      "id": "collective-planning",
+      "label": "Collective planning",
+      "v1Umbrella": "collaboration"
+    },
+    {
+      "id": "constructive-participation",
+      "label": "Constructive participation",
+      "v1Umbrella": "collaboration"
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership",
+      "v1Umbrella": "leadership"
+    },
+    {
+      "id": "initiative",
+      "label": "Initiative",
+      "v1Umbrella": "leadership"
+    },
+    {
+      "id": "delegation",
+      "label": "Delegation",
+      "v1Umbrella": "leadership"
+    },
+    {
+      "id": "facilitation",
+      "label": "Facilitation",
+      "v1Umbrella": "leadership"
+    },
+    {
+      "id": "inclusive-leadership",
+      "label": "Inclusive leadership",
+      "v1Umbrella": "leadership"
+    },
+    {
+      "id": "accountability",
+      "label": "Accountability",
+      "v1Umbrella": "leadership"
+    },
+    {
+      "id": "conflict-mediation",
+      "label": "Conflict mediation",
+      "v1Umbrella": "leadership"
+    },
+    {
+      "id": "team-motivation",
+      "label": "Team motivation",
+      "v1Umbrella": "leadership"
+    },
+    {
+      "id": "decision-ownership",
+      "label": "Decision ownership",
+      "v1Umbrella": "leadership"
+    },
+    {
+      "id": "coaching",
+      "label": "Coaching",
+      "v1Umbrella": "leadership"
+    },
+    {
+      "id": "strategic-thinking",
+      "label": "Strategic thinking",
+      "v1Umbrella": "strategic-thinking"
+    },
+    {
+      "id": "systems-thinking",
+      "label": "Systems thinking",
+      "v1Umbrella": "strategic-thinking"
+    },
+    {
+      "id": "long-term-planning",
+      "label": "Long term planning",
+      "v1Umbrella": "strategic-thinking"
+    },
+    {
+      "id": "contingency-planning",
+      "label": "Contingency planning",
+      "v1Umbrella": "strategic-thinking"
+    },
+    {
+      "id": "resource-allocation",
+      "label": "Resource allocation",
+      "v1Umbrella": "strategic-thinking"
+    },
+    {
+      "id": "tradeoff-analysis",
+      "label": "Tradeoff analysis",
+      "v1Umbrella": "strategic-thinking"
+    },
+    {
+      "id": "risk-anticipation",
+      "label": "Risk anticipation",
+      "v1Umbrella": "strategic-thinking"
+    },
+    {
+      "id": "scenario-planning",
+      "label": "Scenario planning",
+      "v1Umbrella": "strategic-thinking"
+    },
+    {
+      "id": "goal-prioritisation",
+      "label": "Goal prioritisation",
+      "v1Umbrella": "strategic-thinking"
+    },
+    {
+      "id": "competitive-analysis",
+      "label": "Competitive analysis",
+      "v1Umbrella": "strategic-thinking"
+    },
+    {
+      "id": "problem-solving",
+      "label": "Problem solving",
+      "v1Umbrella": "problem-solving"
+    },
+    {
+      "id": "problem-framing",
+      "label": "Problem framing",
+      "v1Umbrella": "problem-solving"
+    },
+    {
+      "id": "root-cause-analysis",
+      "label": "Root cause analysis",
+      "v1Umbrella": "problem-solving"
+    },
+    {
+      "id": "hypothesis-generation",
+      "label": "Hypothesis generation",
+      "v1Umbrella": "problem-solving"
+    },
+    {
+      "id": "solution-testing",
+      "label": "Solution testing",
+      "v1Umbrella": "problem-solving"
+    },
+    {
+      "id": "constraint-analysis",
+      "label": "Constraint analysis",
+      "v1Umbrella": "problem-solving"
+    },
+    {
+      "id": "decomposition",
+      "label": "Decomposition",
+      "v1Umbrella": "problem-solving"
+    },
+    {
+      "id": "troubleshooting",
+      "label": "Troubleshooting",
+      "v1Umbrella": "problem-solving"
+    },
+    {
+      "id": "iterative-refinement",
+      "label": "Iterative refinement",
+      "v1Umbrella": "problem-solving"
+    },
+    {
+      "id": "solution-comparison",
+      "label": "Solution comparison",
+      "v1Umbrella": "problem-solving"
+    },
+    {
+      "id": "decision-making",
+      "label": "Decision making",
+      "v1Umbrella": "decision-making"
+    },
+    {
+      "id": "evidence-based-decisions",
+      "label": "Evidence based decisions",
+      "v1Umbrella": "decision-making"
+    },
+    {
+      "id": "uncertainty-management",
+      "label": "Uncertainty management",
+      "v1Umbrella": "decision-making"
+    },
+    {
+      "id": "ethical-decision-making",
+      "label": "Ethical decision making",
+      "v1Umbrella": "decision-making"
+    },
+    {
+      "id": "alternatives-evaluation",
+      "label": "Alternatives evaluation",
+      "v1Umbrella": "decision-making"
+    },
+    {
+      "id": "consequence-evaluation",
+      "label": "Consequence evaluation",
+      "v1Umbrella": "decision-making"
+    },
+    {
+      "id": "escalation-judgement",
+      "label": "Escalation judgement",
+      "v1Umbrella": "decision-making"
+    },
+    {
+      "id": "commitment-to-action",
+      "label": "Commitment to action",
+      "v1Umbrella": "decision-making"
+    },
+    {
+      "id": "bias-aware-decisions",
+      "label": "Bias aware decisions",
+      "v1Umbrella": "decision-making"
+    },
+    {
+      "id": "balanced-judgement",
+      "label": "Balanced judgement",
+      "v1Umbrella": "decision-making"
+    },
+    {
+      "id": "critical-thinking",
+      "label": "Critical thinking",
+      "v1Umbrella": "critical-thinking"
+    },
+    {
+      "id": "assumption-checking",
+      "label": "Assumption checking",
+      "v1Umbrella": "critical-thinking"
+    },
+    {
+      "id": "source-evaluation",
+      "label": "Source evaluation",
+      "v1Umbrella": "critical-thinking"
+    },
+    {
+      "id": "argument-evaluation",
+      "label": "Argument evaluation",
+      "v1Umbrella": "critical-thinking"
+    },
+    {
+      "id": "evidence-evaluation",
+      "label": "Evidence evaluation",
+      "v1Umbrella": "critical-thinking"
+    },
+    {
+      "id": "causal-reasoning",
+      "label": "Causal reasoning",
+      "v1Umbrella": "critical-thinking"
+    },
+    {
+      "id": "counterexample-generation",
+      "label": "Counterexample generation",
+      "v1Umbrella": "critical-thinking"
+    },
+    {
+      "id": "logical-consistency",
+      "label": "Logical consistency",
+      "v1Umbrella": "critical-thinking"
+    },
+    {
+      "id": "bias-detection",
+      "label": "Bias detection",
+      "v1Umbrella": "critical-thinking"
+    },
+    {
+      "id": "reflective-judgement",
+      "label": "Reflective judgement",
+      "v1Umbrella": "critical-thinking"
+    },
+    {
+      "id": "time-management",
+      "label": "Time management",
+      "v1Umbrella": "time-management"
+    },
+    {
+      "id": "task-prioritisation",
+      "label": "Task prioritisation",
+      "v1Umbrella": "time-management"
+    },
+    {
+      "id": "deadline-management",
+      "label": "Deadline management",
+      "v1Umbrella": "time-management"
+    },
+    {
+      "id": "pacing",
+      "label": "Pacing",
+      "v1Umbrella": "time-management"
+    },
+    {
+      "id": "focus-management",
+      "label": "Focus management",
+      "v1Umbrella": "time-management"
+    },
+    {
+      "id": "interruption-recovery",
+      "label": "Interruption recovery",
+      "v1Umbrella": "time-management"
+    },
+    {
+      "id": "workload-balancing",
+      "label": "Workload balancing",
+      "v1Umbrella": "time-management"
+    },
+    {
+      "id": "planning-accuracy",
+      "label": "Planning accuracy",
+      "v1Umbrella": "time-management"
+    },
+    {
+      "id": "sequencing",
+      "label": "Sequencing",
+      "v1Umbrella": "time-management"
+    },
+    {
+      "id": "timely-handover",
+      "label": "Timely handover",
+      "v1Umbrella": "time-management"
+    },
+    {
+      "id": "negotiation",
+      "label": "Negotiation",
+      "v1Umbrella": "negotiation"
+    },
+    {
+      "id": "interest-identification",
+      "label": "Interest identification",
+      "v1Umbrella": "negotiation"
+    },
+    {
+      "id": "perspective-taking",
+      "label": "Perspective taking",
+      "v1Umbrella": "negotiation"
+    },
+    {
+      "id": "common-ground-building",
+      "label": "Common ground building",
+      "v1Umbrella": "negotiation"
+    },
+    {
+      "id": "proposal-framing",
+      "label": "Proposal framing",
+      "v1Umbrella": "negotiation"
+    },
+    {
+      "id": "concession-planning",
+      "label": "Concession planning",
+      "v1Umbrella": "negotiation"
+    },
+    {
+      "id": "reciprocal-agreement",
+      "label": "Reciprocal agreement",
+      "v1Umbrella": "negotiation"
+    },
+    {
+      "id": "fair-deal-design",
+      "label": "Fair deal design",
+      "v1Umbrella": "negotiation"
+    },
+    {
+      "id": "boundary-setting",
+      "label": "Boundary setting",
+      "v1Umbrella": "negotiation"
+    },
+    {
+      "id": "agreement-clarification",
+      "label": "Agreement clarification",
+      "v1Umbrella": "negotiation"
+    },
+    {
+      "id": "adaptability",
+      "label": "Adaptability",
+      "v1Umbrella": "adaptability"
+    },
+    {
+      "id": "learning-from-feedback",
+      "label": "Learning from feedback",
+      "v1Umbrella": "adaptability"
+    },
+    {
+      "id": "strategy-revision",
+      "label": "Strategy revision",
+      "v1Umbrella": "adaptability"
+    },
+    {
+      "id": "change-response",
+      "label": "Change response",
+      "v1Umbrella": "adaptability"
+    },
+    {
+      "id": "role-flexibility",
+      "label": "Role flexibility",
+      "v1Umbrella": "adaptability"
+    },
+    {
+      "id": "recovery-after-error",
+      "label": "Recovery after error",
+      "v1Umbrella": "adaptability"
+    },
+    {
+      "id": "ambiguity-handling",
+      "label": "Ambiguity handling",
+      "v1Umbrella": "adaptability"
+    },
+    {
+      "id": "transfer-of-learning",
+      "label": "Transfer of learning",
+      "v1Umbrella": "adaptability"
+    },
+    {
+      "id": "experimentation",
+      "label": "Experimentation",
+      "v1Umbrella": "adaptability"
+    },
+    {
+      "id": "task-persistence",
+      "label": "Task persistence",
+      "v1Umbrella": "adaptability"
+    },
+    {
+      "id": "creativity",
+      "label": "Creativity",
+      "v1Umbrella": "creativity"
+    },
+    {
+      "id": "imagination",
+      "label": "Imagination",
+      "v1Umbrella": "creativity"
+    },
+    {
+      "id": "idea-fluency",
+      "label": "Idea fluency",
+      "v1Umbrella": "creativity"
+    },
+    {
+      "id": "idea-flexibility",
+      "label": "Idea flexibility",
+      "v1Umbrella": "creativity"
+    },
+    {
+      "id": "originality",
+      "label": "Originality",
+      "v1Umbrella": "creativity"
+    },
+    {
+      "id": "concept-combination",
+      "label": "Concept combination",
+      "v1Umbrella": "creativity"
+    },
+    {
+      "id": "visualisation",
+      "label": "Visualisation",
+      "v1Umbrella": "creativity"
+    },
+    {
+      "id": "storytelling",
+      "label": "Storytelling",
+      "v1Umbrella": "creativity"
+    },
+    {
+      "id": "divergent-thinking",
+      "label": "Divergent thinking",
+      "v1Umbrella": "creativity"
+    },
+    {
+      "id": "design-iteration",
+      "label": "Design iteration",
+      "v1Umbrella": "creativity"
+    },
+    {
+      "id": "attention-to-detail",
+      "label": "Attention to detail",
+      "v1Umbrella": "attention-to-detail"
+    },
+    {
+      "id": "error-detection",
+      "label": "Error detection",
+      "v1Umbrella": "attention-to-detail"
+    },
+    {
+      "id": "instruction-following",
+      "label": "Instruction following",
+      "v1Umbrella": "attention-to-detail"
+    },
+    {
+      "id": "consistency-checking",
+      "label": "Consistency checking",
+      "v1Umbrella": "attention-to-detail"
+    },
+    {
+      "id": "data-verification",
+      "label": "Data verification",
+      "v1Umbrella": "attention-to-detail"
+    },
+    {
+      "id": "precision",
+      "label": "Precision",
+      "v1Umbrella": "attention-to-detail"
+    },
+    {
+      "id": "quality-review",
+      "label": "Quality review",
+      "v1Umbrella": "attention-to-detail"
+    },
+    {
+      "id": "completeness-checking",
+      "label": "Completeness checking",
+      "v1Umbrella": "attention-to-detail"
+    },
+    {
+      "id": "safety-checking",
+      "label": "Safety checking",
+      "v1Umbrella": "attention-to-detail"
+    },
+    {
+      "id": "anomaly-detection",
+      "label": "Anomaly detection",
+      "v1Umbrella": "attention-to-detail"
+    }
+  ]
+}
