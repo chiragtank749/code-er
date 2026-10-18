@@ -1,8 +1,11 @@
 {
   "name": "code-er-launchdeck-tools",
   "private": true,
-  "description": "Krilern artifact checks for Code ER. The game itself is Java/Maven; this file holds no dependencies.",
+  "description": "Code ER Safety Net Lab (zero-dependency Node server) and Krilern artifact checks. The Java workshop itself uses Maven.",
   "scripts": {
-    "test:launchdeck": "node tools/launchdeck-validate.mjs && node --test tools/launchdeck-validate.test.mjs"
+    "start": "node lab/server.mjs",
+    "test:launchdeck": "node tools/launchdeck-validate.mjs && node --test tools/launchdeck-validate.test.mjs",
+    "test:bridge": "npm run test:launchdeck && node --test tests/parity.test.mjs tests/bridge.test.mjs",
+    "capture": "node tests/browser-capture.mjs"
   }
 }

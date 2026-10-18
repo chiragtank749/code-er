@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "type": "launchdeck.game-report",
+  "reportId": "2f3f3775-198e-4881-9783-c2183c4ba82d",
+  "game": {
+    "gameId": "code-er-ride-booking",
+    "name": "Code ER: the patient must survive",
+    "gameVersion": "1.1.0"
+  },
+  "session": {
+    "launchdeckSessionId": "fixture-session-001",
+    "playMode": "team",
+    "startedAt": "2026-10-18T09:36:42.082Z",
+    "endedAt": "2026-10-18T09:36:42.544Z",
+    "outcome": "completed"
+  },
+  "teams": [
+    {
+      "teamId": "t1",
+      "name": "Team 1",
+      "rank": 1,
+      "score": 8,
+      "memberIds": [
+        "pd22481f59b2f",
+        "p15703f0cb3af"
+      ]
+    },
+    {
+      "teamId": "t2",
+      "name": "Team 2",
+      "rank": 2,
+      "score": 1,
+      "memberIds": [
+        "pf718a909426e",
+        "pdd6e789b967a"
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "participantId": "pd22481f59b2f",
+      "launchdeckUserId": "acct-A",
+      "displayName": "Samira",
+      "role": "player",
+      "teamId": "t1",
+      "completed": true,
+      "rank": 1,
+      "rankOutOf": 2,
+      "score": 8,
+      "maxScore": 8,
+      "metrics": {
+        "bridgeProtocol": 1,
+        "bridgeSkillLevel": 1,
+        "bridgeDifficulty": 1,
+        "bridgeRubricVersion": 1,
+        "bridgeRequiredUnits": 6,
+        "bridgeCompletedUnits": 6,
+        "bridgeEligibleUnits": 6,
+        "bridgeParticipationUnits": 6,
+        "bridgeCompletionEligible": true,
+        "bridgeLeftEarly": false,
+        "bridgeWinEligible": true,
+        "bridgeWon": true,
+        "bridgeHostAdjustedScore": false,
+        "lockedProbes": 8,
+        "falseBugFlags": 0,
+        "sk_test-design_observations": 8,
+        "sk_test-design_successes": 8,
+        "sk_test-design_level": 1,
+        "sk_error-detection_observations": 3,
+        "sk_error-detection_successes": 2,
+        "sk_error-detection_level": 1,
+        "sk_test-design_rating": 5,
+        "sk_error-detection_rating": 3
+      },
+      "skills": [
+        {
+          "skillId": "test-design",
+          "type": "technical",
+          "rating": 5,
+          "evidence": "Own locked characterization probes caught 8 of 8 broken copies (easy)."
+        },
+        {
+          "skillId": "attention-to-detail",
+          "type": "interpersonal",
+          "rating": 3,
+          "evidence": "Error detection: correctly flagged 2 of 3 suspected bugs with a reproducing probe; 0 incorrect flag(s)."
+        }
+      ]
+    },
+    {
+      "participantId": "pf718a909426e",
+      "launchdeckUserId": "acct-B",
+      "displayName": "Sam",
+      "role": "player",
+      "teamId": "t2",
+      "completed": true,
+      "rank": 2,
+      "rankOutOf": 2,
+      "score": 1,
+      "maxScore": 8,
+      "metrics": {
+        "bridgeProtocol": 1,
+        "bridgeSkillLevel": 1,
+        "bridgeDifficulty": 1,
+        "bridgeRubricVersion": 1,
+        "bridgeRequiredUnits": 6,
+        "bridgeCompletedUnits": 6,
+        "bridgeEligibleUnits": 6,
+        "bridgeParticipationUnits": 6,
+        "bridgeCompletionEligible": true,
+        "bridgeLeftEarly": false,
+        "bridgeWinEligible": true,
+        "bridgeWon": false,
+        "bridgeHostAdjustedScore": false,
+        "lockedProbes": 5,
+        "falseBugFlags": 0,
+        "sk_test-design_observations": 8,
+        "sk_test-design_successes": 1,
+        "sk_test-design_level": 1,
+        "sk_error-detection_observations": 3,
+        "sk_error-detection_successes": 0,
+        "sk_error-detection_level": 1,
+        "sk_test-design_rating": 1,
+        "sk_error-detection_rating": 1
+      },
+      "skills": [
+        {
+          "skillId": "test-design",
+          "type": "technical",
+          "rating": 1,
+          "evidence": "Own locked characterization probes caught 1 of 8 broken copies (easy)."
+        },
+        {
+          "skillId": "attention-to-detail",
+          "type": "interpersonal",
+          "rating": 1,
+          "evidence": "Error detection: correctly flagged 0 of 3 suspected bugs with a reproducing probe; 0 incorrect flag(s)."
+        }
+      ]
+    },
+    {
+      "participantId": "p15703f0cb3af",
+      "launchdeckUserId": "acct-C",
+      "displayName": "Idle",
+      "role": "player",
+      "teamId": "t1",
+      "completed": false,
+      "rank": null,
+      "rankOutOf": null,
+      "score": 0,
+      "maxScore": 8,
+      "metrics": {
+        "bridgeProtocol": 1,
+        "bridgeSkillLevel": 1,
+        "bridgeDifficulty": 1,
+        "bridgeRubricVersion": 1,
+        "bridgeRequiredUnits": 6,
+        "bridgeCompletedUnits": 0,
+        "bridgeEligibleUnits": 6,
+        "bridgeParticipationUnits": 0,
+        "bridgeCompletionEligible": false,
+        "bridgeLeftEarly": false,
+        "bridgeWinEligible": false,
+        "bridgeWon": false,
+        "bridgeHostAdjustedScore": false,
+        "lockedProbes": 0,
+        "falseBugFlags": 0,
+        "sk_test-design_observations": 0,
+        "sk_test-design_successes": 0,
+        "sk_test-design_level": 1,
+        "sk_error-detection_observations": 0,
+        "sk_error-detection_successes": 0,
+        "sk_error-detection_level": 1
+      },
+      "skills": []
+    },
+    {
+      "participantId": "pdd6e789b967a",
+      "launchdeckUserId": "acct-D",
+      "displayName": "Leaver",
+      "role": "player",
+      "teamId": "t2",
+      "completed": false,
+      "rank": null,
+      "rankOutOf": null,
+      "score": 0,
+      "maxScore": 8,
+      "metrics": {
+        "bridgeProtocol": 1,
+        "bridgeSkillLevel": 1,
+        "bridgeDifficulty": 1,
+        "bridgeRubricVersion": 1,
+        "bridgeRequiredUnits": 6,
+        "bridgeCompletedUnits": 2,
+        "bridgeEligibleUnits": 6,
+        "bridgeParticipationUnits": 2,
+        "bridgeCompletionEligible": false,
+        "bridgeLeftEarly": true,
+        "bridgeWinEligible": false,
+        "bridgeWon": false,
+        "bridgeHostAdjustedScore": false,
+        "lockedProbes": 2,
+        "falseBugFlags": 0,
+        "sk_test-design_observations": 0,
+        "sk_test-design_successes": 0,
+        "sk_test-design_level": 1,
+        "sk_error-detection_observations": 0,
+        "sk_error-detection_successes": 0,
+        "sk_error-detection_level": 1
+      },
+      "skills": []
+    }
+  ]
+}
